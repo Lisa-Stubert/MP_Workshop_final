@@ -113,8 +113,15 @@
           "BEZ":"BEZ",
           "BEZName": "BEZName"
         },
-        "layerAttribution": "Datensatz der sogenannten Schuleinzugsgebiete der Grundschulen in Mitte. <br><br>Letzte Aktualisierung: 06.10.2020 <br>Quelle: Amt für Statistik"
-      }
+        "layerAttribution": "Datensatz der sogenannten Schuleinzugsgebiete der Grundschulen in Mitte. <br><br>Letzte Aktualisierung: 06.10.2020 <br>Quelle: Amt für Statistik",
+      "datasets" : [
+        {
+           "md_id" : "metadata_ESG.xml",
+           "csw_url" : "resources/data/metadata_ESG.xml",
+           "show_doc_url" : "resources/data/"
+        }
+     ]
+    }
 ]
 
 
