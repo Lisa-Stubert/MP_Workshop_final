@@ -16,7 +16,13 @@
       "layerAttribution": "nicht vorhanden",
       "legend": false,
       "cache": true,
-      "featureCount": "1"
+      "featureCount": "1",
+    "datasets" : [
+       {
+          "md_id" : "21797ced-f0c0-311a-975e-eb364ee76953",
+          "csw_url" : "https://fbinter.stadt-berlin.de/fb/csw"
+       }
+    ]
     },
     {
       "id": "k5_sw",
@@ -35,7 +41,13 @@
       "layerAttribution": "nicht vorhanden",
       "legend": false,
       "cache": true,
-      "featureCount": "1"
+      "featureCount": "1",
+    "datasets" : [
+       {
+          "md_id" : "ae016419-9585-398b-9f01-4b87a5b39d5e",
+          "csw_url" : "https://fbinter.stadt-berlin.de/fb/csw"
+       }
+    ]
     },
     {
       "id": "webatlas_sw",
@@ -53,7 +65,13 @@
       "legendURL": "ignore",
       "gfiTheme": "default",
       "cache": true,
-      "featureCount": "1"
+      "featureCount": "1",
+      "datasets" : [
+        {
+           "md_id" : "07ae7283-fe49-31f3-96c0-651e9acfbca6",
+           "csw_url" : "https://fbinter.stadt-berlin.de/fb/csw"
+        }
+     ]
       },
       
       {
@@ -72,8 +90,13 @@
           "Schulart": "Schulart",
           "INTERNET": "Internet"
         },
-        "layerAttribution": "",
-        "wfsFilter": "resources/filter/schulen_filtern.xml"
+        "wfsFilter": "resources/filter/schulen_filtern.xml",
+        "datasets" : [
+          {
+             "md_id" : "0d5b6bf7-c448-38af-ab50-b3536a57c5d1",
+             "csw_url" : "https://fbinter.stadt-berlin.de/fb/csw"
+          }
+       ]
       },
 
       {
@@ -89,7 +112,8 @@
         "gfiAttributes" : {
           "BEZ":"BEZ",
           "BEZName": "BEZName"
-        }
+        },
+        "layerAttribution": "Datensatz der sogenannten Schuleinzugsgebiete der Grundschulen in Mitte. <br><br>Letzte Aktualisierung: 06.10.2020 <br>Quelle: Amt für Statistik"
       }
 ]
 
