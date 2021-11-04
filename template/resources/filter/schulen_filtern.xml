@@ -3,10 +3,10 @@
     <wfs:Query typeName="fis:s_schulen">
         <ogc:Filter>
             <ogc:And>
-                <ogc:PropertyIsEqualTo>
+                <ogc:PropertyIsLike wildCard="*" singleChar="?" escape="ESC">
                     <ogc:PropertyName>fis:bezirk</ogc:PropertyName>
                     <ogc:Literal>Mitte</ogc:Literal>
-                </ogc:PropertyIsEqualTo>
+                </ogc:PropertyIsLike>
             </ogc:And>
         </ogc:Filter>
     </wfs:Query>
